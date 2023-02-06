@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-size: 16px;
+    font-family: "Montserrat", "Verdana", sans-serif;
+}
+
+header {
+    height: 64px;
+    max-width: 100%;
+    background-color: hsl(71, 0%, 98%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left {
+    display: inline-flex;
+    align-items: center;
+    padding-left: 1.5rem;
+}
+
+.header-right {
+    display: inline-flex;
+    align-items: center;
+    padding-right: 1.5rem;
+}
+
+header ul {
+    display: flex;
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+.colmar {
+    color:hsl(51, 3%, 17%);
+}
+
+.academy {
+    color: hsl(30, 7%, 52%);
+}
+
+.menu-option{
+    cursor: pointer;
+    padding-left: 1rem;
+}
+
+.main-container {
+    top: 4rem;
+}
+
+.thesis-info video {
+    width: 60%;
+}
+
+/* body {
+    font-family: 'Montserrat', sans-serif;
+} */
